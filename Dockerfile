@@ -7,5 +7,4 @@ COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
 
-CMD cp -r /nginx_deploy /etc/nginx/deploy_conf
-CMD nginx -g "daemon off;"
+CMD cp -r /nginx_deploy /etc/nginx/deploy_conf; nginx -g "daemon off;"
