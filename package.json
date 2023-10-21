@@ -1,17 +1,17 @@
 {
-  "name": "devblog",
-  "description": "GatsbyJS blog template for developers",
+  "name": "megaspell",
+  "description": "Megaspell - a Fallout: Equestria top-down shooter game",
   "version": "2.0.0",
-  "author": "Ryan Fitzgerald <ryanfitzgeralddev@gmail.com>",
+  "author": "Shimmermare <shimmermare@gmail.com>",
   "bugs": {
-    "url": "https://github.com/ryanfitzgerald/devblog/issues"
+    "url": "https://discord.gg/XfXPfz75Rv"
   },
   "dependencies": {
     "gatsby": "^2.0.31",
     "gatsby-image": "^1.0.55",
     "gatsby-paginate": "^1.0.16",
     "gatsby-plugin-feed": "^2.0.8",
-    "gatsby-plugin-google-analytics": "^2.0.6",
+    "gatsby-plugin-google-gtag": "^2.7.0",
     "gatsby-plugin-manifest": "^2.0.6",
     "gatsby-plugin-offline": "^2.0.9",
     "gatsby-plugin-react-helmet": "^3.0.0",
@@ -34,11 +34,11 @@
   },
   "devDependencies": {
     "eslint": "^4.19.1",
+    "eslint-plugin-flowtype": "^2.46.3",
     "eslint-plugin-react": "^7.7.0",
-    "gh-pages": "^1.1.0",
     "prettier": "^1.12.0"
   },
-  "homepage": "https://github.com/ryanfitzgerald/devblog#readme",
+  "homepage": "https://github.com/Megaspell/MegaspellBlog#readme",
   "keywords": [
     "gatsby",
     "dev",
@@ -49,14 +49,13 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryanfitzgerald/devblog.git"
+    "url": "git+https://github.com/Megaspell/MegaspellBlog.git"
   },
   "scripts": {
     "dev": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
-    "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "build": "gatsby build --prefix-paths"
   }
 }

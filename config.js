@@ -1,17 +1,13 @@
 module.exports = {
-  title: 'Dev Blog', // Required
-  author: 'Ryan Fitzgerald', // Required
-  description: 'Full-stack Web Developer',
-  primaryColor: '#3498db', // Required
+  title: 'Megaspell', // Required
+  author: '', // Required
+  description: 'A Fallout: Equestria top-down shooter game',
+  primaryColor: '#00FF99', // Required
   showHeaderImage: true,
-  showShareButtons: true,
   postsPerPage: 5, // Required
   social: {
-    website: 'https://ryanfitzgerald.ca',
-    github: 'https://github.com/ryanfitzgerald',
-    twitter: 'https://twitter.com/ryanafitzgerald',
-    linkedin: 'https://ca.linkedin.com/in/ryanafitzgerald',
+    discord: 'https://discord.gg/XfXPfz75Rv',
+    github: 'https://github.com/Megaspell'
   },
-  pathPrefix: '/devblog',
-  siteUrl: 'https://ryanfitzgerald.github.io/devblog/',
+  siteUrl: 'https://megaspell.shimmermare.com/',
 };

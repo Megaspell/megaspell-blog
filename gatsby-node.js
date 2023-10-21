@@ -15,7 +15,7 @@ exports.createPages = ({ graphql, actions }) => {
         `
           {
             allMarkdownRemark(
-              sort: { fields: [frontmatter___date], order: DESC }
+              sort: { fields: [frontmatter___date, frontmatter___title], order: DESC }
               limit: 1000
             ) {
               edges {
@@ -29,7 +29,7 @@ exports.createPages = ({ graphql, actions }) => {
                     date(formatString: "MMMM D, YYYY")
                     featuredImage {
                       childImageSharp {
-                        sizes(maxWidth: 850) {
+                        sizes(maxWidth: 850, quality: 90) {
                           base64
                           aspectRatio
                           src

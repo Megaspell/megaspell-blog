@@ -24,8 +24,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 700,
-              linkImagesToOriginal: false,
+              maxWidth: 3840,
+              linkImagesToOriginal: true,
               wrapperStyle: 'margin: 15px -30px !important',
             },
           },
@@ -44,9 +44,18 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingIds: [
+          "G-7F4ZPTD4L6"
+        ],
+        gtagConfig: {
+          send_page_view: true
+        },
+        pluginConfig: {
+          respectDNT: true,
+          origin: userConfig.siteUrl
+        }
       },
     },
     `gatsby-plugin-feed`,
@@ -59,7 +68,7 @@ module.exports = {
         background_color: '#fff',
         theme_color: userConfig.primaryColor,
         display: 'minimal-ui',
-        icon: 'src/main.jpg',
+        icon: 'src/Megaspell_Icon.png',
       },
     },
     `gatsby-plugin-offline`,

@@ -5,6 +5,7 @@ import H2 from '../components/H2';
 
 const Wrapper = styled.div`
   text-align: center;
+  background: black;
 `;
 
 function NotFound() {

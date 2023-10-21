@@ -17,7 +17,7 @@ const ShareButton = styled.a`
   }
 
   &:hover {
-    border-color: #3e465b;
+    border-color: #00FF99;
   }
 `;
 

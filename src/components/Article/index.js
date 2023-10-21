@@ -2,8 +2,9 @@ import styled from 'styled-components';
 import userConfig from '../../../config';
 
 const Article = styled.article`
-  color: #65738c;
+  color: #d8d8d8;
   font-size: 16px;
+  
 
   a {
     color: ${userConfig.primaryColor};
@@ -16,49 +17,56 @@ const Article = styled.article`
   }
 
   h1 {
-    color: #3e465b;
+    color: #00FF99;
     font-size: 30px;
     font-weight: 700;
     line-height: 1.5;
-    margin: 25px 50px 15px;
+    margin: 25px 20px 15px;
   }
 
   h2 {
-    color: #3e465b;
+    color: #fff;
     font-size: 22px;
     font-weight: 700;
     line-height: 1.5;
-    margin: 25px 50px 15px;
+    margin: 25px 20px 15px;
   }
 
   h3 {
-    color: #3e465b;
+    color: #fff;
     font-size: 17px;
     font-weight: 700;
     line-height: 1.5;
-    margin: 25px 50px 15px;
+    margin: 25px 20px 15px;
   }
 
   h4 {
-    color: #3e465b;
+    color: #fff;
     font-weight: 700;
     line-height: 1.5;
-    margin: 25px 50px 15px;
+    margin: 25px 20px 15px;
   }
 
   h5,
   h6 {
-    color: #3e465b;
+    color: #fff;
     font-weight: 700;
     line-height: 1.5;
-    margin: 25px 50px 15px;
+    margin: 25px 20px 15px;
   }
 
   p {
     line-height: 1.7;
-    margin: 15px 50px;
+    margin: 15px 20px;
   }
-
+  
+  @media only screen and (max-width: 870px) {
+    p {
+      line-height: 1.7;
+      margin: 15px 10px;
+    }
+  }
+  
   blockquote {
     border-left: 5px solid #e0e6ed;
     line-height: 1.7;

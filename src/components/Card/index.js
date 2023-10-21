@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 
 const Card = styled.div`
-  background: #fff;
-  border: 1px solid #e0e6ed;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+  background: #202020;
+  border: 2px solid #00FF99;
+  box-shadow: 0 0 100px 50px rgba(0,0,0,1);
   margin-bottom: 30px;
-  padding: 75px 100px;
+  padding: 75px 10px;
 
   @media only screen and (max-width: 870px) {
     border-left: none;
     border-right: none;
-    padding: 75px 15px;
+    padding: 75px 10px;
   }
 `;
 

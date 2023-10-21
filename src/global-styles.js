@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 import styledNormalize from "styled-normalize";
 
+import backgroundImage from './background.jpg'
+
 const GlobalStyle = createGlobalStyle`
   ${styledNormalize}
   
@@ -20,7 +22,10 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #f9fafc;
+    background-image: url(${backgroundImage});
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: 'Open Sans', sans-serif; 
     line-height: 1.5;
     padding: 50px 0;
