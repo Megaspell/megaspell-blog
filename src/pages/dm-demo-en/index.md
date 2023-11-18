@@ -19,15 +19,15 @@ You can:
 ### Windows
 - [Google Drive](https://drive.google.com/file/d/1hRAA0433v6u2ifpiliXLfG0-JjUtu0OK/view?usp=sharing)
 - [Mega](https://mega.nz/folder/37wAhRKA#sWs1W3-hrcbnTE6Waik5Mg)
-- [Direct](https://megaspell.shimmermare.com/builds/2023-11-18_1452/StandaloneWindows64_Player_Release.zip)
+- [Direct](https://megaspell.shimmermare.com/builds/2023-11-18_1517/StandaloneWindows64_Player_Release.zip)
 
 ### Linux
 - [Google Drive](https://drive.google.com/file/d/1hVVRXoC1jY1BumJ0NkdZzHzrlmjLqdL6/view?usp=sharing)
 - [Mega](https://mega.nz/folder/37wAhRKA#sWs1W3-hrcbnTE6Waik5Mg)
-- [Direct](https://megaspell.shimmermare.com/builds/2023-11-18_1452/StandaloneLinux64_Player_Release.zip)
+- [Direct](https://megaspell.shimmermare.com/builds/2023-11-18_1517/StandaloneLinux64_Player_Release.zip)
 
 ### Linux - SERVER ONLY
-- [Direct](https://megaspell.shimmermare.com/builds/2023-11-18_1452/StandaloneLinux64_Server_Release.zip)
+- [Direct](https://megaspell.shimmermare.com/builds/2023-11-18_1517/StandaloneLinux64_Server_Release.zip)
 
 ## Installation
 ### Full game

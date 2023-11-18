@@ -20,16 +20,16 @@ featuredImage: '../dm-demo-images/PipBuck2100.png'
 - [Google Drive](https://drive.google.com/file/d/1hRAA0433v6u2ifpiliXLfG0-JjUtu0OK/view?usp=sharing)
 - [Mega](https://mega.nz/folder/37wAhRKA#sWs1W3-hrcbnTE6Waik5Mg)
 - [Yandex](https://disk.yandex.ru/d/VCy77DqI8fqtXg)
-- [Прямая ссылка](https://megaspell.shimmermare.com/builds/2023-11-18_1452/StandaloneWindows64_Player_Release.zip)
+- [Прямая ссылка](https://megaspell.shimmermare.com/builds/2023-11-18_1517/StandaloneWindows64_Player_Release.zip)
 
 ### Linux
 - [Google Drive](https://drive.google.com/file/d/1hVVRXoC1jY1BumJ0NkdZzHzrlmjLqdL6/view?usp=sharing)
 - [Mega](https://mega.nz/folder/37wAhRKA#sWs1W3-hrcbnTE6Waik5Mg)
 - [Yandex](https://disk.yandex.ru/d/VCy77DqI8fqtXg)
-- [Прямая ссылка](https://megaspell.shimmermare.com/builds/2023-11-18_1452/StandaloneLinux64_Player_Release.zip)
+- [Прямая ссылка](https://megaspell.shimmermare.com/builds/2023-11-18_1517/StandaloneLinux64_Player_Release.zip)
 
 ### Linux - только сервер
-- [Прямая ссылка](https://megaspell.shimmermare.com/builds/2023-11-18_1452/StandaloneLinux64_Server_Release.zip)
+- [Прямая ссылка](https://megaspell.shimmermare.com/builds/2023-11-18_1517/StandaloneLinux64_Server_Release.zip)
 
 ## Установка
 ### Установка полной игры
