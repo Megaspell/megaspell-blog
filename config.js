@@ -9,5 +9,5 @@ module.exports = {
     discord: 'https://discord.gg/XfXPfz75Rv',
     github: 'https://github.com/Megaspell'
   },
-  siteUrl: 'https://megaspell.shimmermare.com/',
+  siteUrl: 'https://megaspell.net/',
 };
