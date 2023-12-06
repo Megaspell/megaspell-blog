@@ -23,11 +23,13 @@ function Header({ config }) {
         {social &&
           <Social
             discord={social.discord}
+            downloadWin={social.downloadWin}
+            downloadLinux={social.downloadLinux}
             github={social.github}
           />
         }
       </Wrapper>
-    </Container> 
+    </Container>
   );
 }
 
